@@ -28,6 +28,13 @@ public class FirstDemo {
 		Assert.assertEquals(title,"Google");
 	}
 	
+	@Test(priority=2)
+	public void TC_002_getCurrentUrl() {
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
+		Assert.assertEquals(currentUrl,"https://www.google.com/");
+	}
+	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
