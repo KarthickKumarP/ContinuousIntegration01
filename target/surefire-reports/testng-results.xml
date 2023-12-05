@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T11:36:07 IST" name="Suite" finished-at="2023-12-05T11:36:14 IST" duration-ms="7871">
+  <suite started-at="2023-12-05T12:14:19 IST" name="Suite" finished-at="2023-12-05T12:14:31 IST" duration-ms="11647">
     <groups>
     </groups>
-    <test started-at="2023-12-05T11:36:07 IST" name="Test" finished-at="2023-12-05T11:36:14 IST" duration-ms="7871">
+    <test started-at="2023-12-05T12:14:19 IST" name="Test" finished-at="2023-12-05T12:14:31 IST" duration-ms="11647">
       <class name="baseDemo.FirstDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:baseDemo.FirstDemo@36916eb0]" started-at="2023-12-05T11:36:07 IST" name="setUp" finished-at="2023-12-05T11:36:14 IST" duration-ms="7610" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:baseDemo.FirstDemo@7bab3f1a]" started-at="2023-12-05T12:14:19 IST" name="setUp" finished-at="2023-12-05T12:14:30 IST" duration-ms="11315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001_getTitle()[pri:1, instance:baseDemo.FirstDemo@36916eb0]" started-at="2023-12-05T11:36:14 IST" name="TC_001_getTitle" finished-at="2023-12-05T11:36:14 IST" duration-ms="15" status="PASS">
+        <test-method signature="TC_001_getTitle()[pri:1, instance:baseDemo.FirstDemo@7bab3f1a]" started-at="2023-12-05T12:14:30 IST" name="TC_001_getTitle" finished-at="2023-12-05T12:14:31 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_getTitle -->
-        <test-method signature="TC_002_getCurrentUrl()[pri:2, instance:baseDemo.FirstDemo@36916eb0]" started-at="2023-12-05T11:36:14 IST" name="TC_002_getCurrentUrl" finished-at="2023-12-05T11:36:14 IST" duration-ms="9" status="PASS">
+        <test-method signature="TC_002_getCurrentUrl()[pri:2, instance:baseDemo.FirstDemo@7bab3f1a]" started-at="2023-12-05T12:14:31 IST" name="TC_002_getCurrentUrl" finished-at="2023-12-05T12:14:31 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_getCurrentUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseDemo.FirstDemo@36916eb0]" started-at="2023-12-05T11:36:14 IST" name="tearDown" finished-at="2023-12-05T11:36:14 IST" duration-ms="205" status="PASS">
+        <test-method signature="TC_003_elementIsDisplayed()[pri:3, instance:baseDemo.FirstDemo@7bab3f1a]" started-at="2023-12-05T12:14:31 IST" name="TC_003_elementIsDisplayed" finished-at="2023-12-05T12:14:31 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_elementIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:baseDemo.FirstDemo@7bab3f1a]" started-at="2023-12-05T12:14:31 IST" name="tearDown" finished-at="2023-12-05T12:14:31 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

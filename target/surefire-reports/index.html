@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="baseDemo.FirstDemo" class="method navigator-link" hash-for-method="TC_002_getCurrentUrl">TC_002_getCurrentUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="baseDemo.FirstDemo" class="method navigator-link" hash-for-method="TC_003_elementIsDisplayed">TC_003_elementIsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -141,6 +146,13 @@
                   <a name="TC_002_getCurrentUrl">
                   </a> <!-- TC_002_getCurrentUrl -->
                   <span class="method-name">TC_002_getCurrentUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_elementIsDisplayed">
+                  </a> <!-- TC_003_elementIsDisplayed -->
+                  <span class="method-name">TC_003_elementIsDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_001_getTitle')
+data.setCell(0, 1, 'TC_003_elementIsDisplayed')
 data.setCell(0, 2, 'baseDemo.FirstDemo')
-data.setCell(0, 3, 15);
+data.setCell(0, 3, 52);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC_002_getCurrentUrl')
+data.setCell(1, 1, 'TC_001_getTitle')
 data.setCell(1, 2, 'baseDemo.FirstDemo')
-data.setCell(1, 3, 9);
+data.setCell(1, 3, 20);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_002_getCurrentUrl')
+data.setCell(2, 2, 'baseDemo.FirstDemo')
+data.setCell(2, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 ms</span>
+              <span class="suite-total-time">Total running time: 84 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -243,15 +259,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TC_001_getTitle</span>
-                <span class="method-start">7620 ms</span>
+                <span class="method-start">11337 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TC_002_getCurrentUrl</span>
-                <span class="method-start">7641 ms</span>
+                <span class="method-start">11360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_003_elementIsDisplayed</span>
+                <span class="method-start">11375 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7652 ms</span>
+                <span class="method-start">11428 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
