@@ -2,6 +2,7 @@ package baseDemo;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -35,6 +36,12 @@ public class FirstDemo {
 		Assert.assertEquals(currentUrl,"https://www.google.com/");
 	}
 	
+	@Test(priority=3)
+	public void TC_003_elementIsDisplayed() {
+		boolean contains = driver.findElement(By.xpath("//a[text()='Gmail']")).isDisplayed();
+		System.out.println(contains);
+		Assert.assertEquals(contains,true);
+	}
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
